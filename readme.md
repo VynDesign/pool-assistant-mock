@@ -42,8 +42,6 @@ The file "config.h" provides relatively non-sensitive configuration options. Som
 - the time in milliseconds between readings
 <br />
 <br />
----
-<br />
 <br />
 
 # Configuration - Home Assistant
@@ -154,7 +152,11 @@ action:
 mode: single
 ```
 
-Finally, pulling it all together, I created the Lovelace dashboard to display a gauge card, sensor timeline card, and entity card inside a grid card for each of the three sensors.
+Finally, pulling it all together, I created the Lovelace dashboard view to display a gauge card, sensor timeline card, and entity card stacked inside inside a grid card for each of the three sensors. This ends up looking like:
+
+![Screen Shot 2022-04-05 at 2 06 28 PM](https://user-images.githubusercontent.com/882135/161823170-a8b069d3-a2a8-4271-8da0-2a64832ba27b.png)
+
+Here is the backing YAML for that specific view:
 
 ```
   - theme: Backend-selected
