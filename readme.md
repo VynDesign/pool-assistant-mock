@@ -232,3 +232,25 @@ Here is the backing YAML for that specific view:
             entities:
               - entity: sensor.pool_assistant_temperature
 ```
+<br />
+
+# Future Vision
+
+* Connect [Whitebox T2](https://atlas-scientific.com/electrical-isolation/whitebox-t2/) Arduino Uno Shield to the Uno Wifi rev2
+
+* Connect the following sensor probes to the Whitebox T2:
+
+  * [Consumer Grade pH Probe](https://atlas-scientific.com/probes/consumer-grade-ph-probe/?attribute_optional-sma-to-bnc-adapter=Do+not+include)
+  * [Consumer Grade ORP Probe](https://atlas-scientific.com/probes/consumer-grade-orp-probe/?attribute_optional-sma-to-bnc-adapter=Do+not+include)
+  * [Standard Grade Temperature Probe](https://atlas-scientific.com/probes/standard-temp-probe/)
+
+* And their related EZO circuits:
+
+  * [EZO pH Circuit](https://atlas-scientific.com/embedded-solutions/ezo-ph-circuit/)
+  * [EZO ORP Circuit](https://atlas-scientific.com/embedded-solutions/ezo-orp-circuit/)
+  * [EZO RTD Temperature Circuit](https://atlas-scientific.com/embedded-solutions/ezo-rtd-temperature-circuit/)
+
+
+* Calculate estimated Free Chlorine PPM based on temp, ORP, and pH readings.
+
+* Indiate "trends" (pH trending downward, ORP trending upward, etc...)
