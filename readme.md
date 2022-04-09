@@ -262,3 +262,5 @@ Here is the backing YAML for that specific view:
 * Indiate "trends" (pH trending downward, ORP trending upward, etc...)
 
 * Design a modified version of the HA "Gauge" card that has severity coloration at both the low and high end of the arch, since the pH and ORP should have a specific "good" range that does not start with 0 (pH being "good" between 6.9 and 7.4, ORP optimally being above 650mV and generally topping out at 850mV).
+
+* Build the pool circulation system bypass rig for the probes
