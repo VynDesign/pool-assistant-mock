@@ -149,7 +149,7 @@ action:
             target:
               entity_id: input_number.pool_temp
     default: []
-mode: single
+mode: parallel
 ```
 
 Finally, pulling it all together, I created the Lovelace dashboard view to display a gauge card, sensor timeline card, and entity card stacked inside inside a grid card for each of the three sensors. This ends up looking like:
