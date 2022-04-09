@@ -254,3 +254,5 @@ Here is the backing YAML for that specific view:
 * Calculate estimated Free Chlorine PPM based on temp, ORP, and pH readings.
 
 * Indiate "trends" (pH trending downward, ORP trending upward, etc...)
+
+* Design a modified version of the HA "Gauge" card that has severity coloration at both the low and high end of the arch, since the pH and ORP should have a specific "good" range that does not start with 0
