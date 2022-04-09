@@ -250,6 +250,12 @@ Here is the backing YAML for that specific view:
   * [EZO ORP Circuit](https://atlas-scientific.com/embedded-solutions/ezo-orp-circuit/)
   * [EZO RTD Temperature Circuit](https://atlas-scientific.com/embedded-solutions/ezo-rtd-temperature-circuit/)
 
+* Flip the EZO circuits to I2C mode using the breadboard/jumper wire method
+  * [Breadboard](https://www.adafruit.com/product/64)
+  * [Jumper Wires](https://www.adafruit.com/product/153)
+  * [Instructions](https://www.whiteboxes.ch/docs/tentacle/t2-mkII/#/protocols?id=set-protocol-manually)
+
+* Put the entire thing in an [Adafruit Flanged Weatherproof Enclosure w/PG-7 Cable Glands]( https://www.adafruit.com/product/3931)
 
 * Calculate estimated Free Chlorine PPM based on temp, ORP, and pH readings.
 
